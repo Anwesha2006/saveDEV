@@ -51,7 +51,6 @@ export const Sidebar = ({
           {steps.map((step, index) => {
             const isActive = step.id === currentStep.id;
             const isCompleted = completedSteps.has(step.id);
-            const Icon = step.icon;
 
             return (
               <li key={step.id}>
